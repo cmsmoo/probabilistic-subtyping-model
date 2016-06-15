@@ -1,6 +1,6 @@
 # Probabilistic Subtyping Model (PSM)
 
-This is an R implementation of the probabilistic subtyping model (PSM). The code implements a procedure that clusters "unbalanced" longitudinal trajectories (i.e. the number of observations and the timing of observations are different across trajectories). The clusters will be invariant to certain additive transformations (see the associated paper). By default, these are vertical shifts and transient spikes, which are both substantively motivated in the paper. If you use this code in a scientific publication, please cite us:
+This is an R implementation of the probabilistic subtyping model (PSM). The code implements a procedure that clusters "unbalanced" longitudinal trajectories (i.e. the number of observations and the timing of observations are different across trajectories). The clusters will be invariant to certain additive transformations (see the associated [paper](http://pschulam.com/papers/schulam+wigley+saria_aaai_2015.pdf)). By default, these are vertical shifts and transient spikes, which are both substantively motivated in the paper. If you use this code in a scientific publication, please cite us:
 
 ```
 @inproceedings{schulam2015clustering,
